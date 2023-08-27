@@ -120,7 +120,7 @@ function draw() {
         stroke(155);
         textSize(38);
         textAlign(CENTER);
-        text("Welcome to the Thunderstorm Asthma Prevention Game!\n🌩🪷⛈🌺⛈🪷🌩", width / 2, height / 2 - 160);
+        text("Welcome to the Thunderstorm Asthma Prevention Game!\n🌩🌺⛈🌺⛈🌺🌩", width / 2, height / 2 - 160);
 
         textSize(36);
 
