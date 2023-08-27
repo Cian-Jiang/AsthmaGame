@@ -47,7 +47,7 @@ function preload() {
 }
 function setup() {
     createCanvas(1024, 676 );
-    bgMusic.setVolume(0.1);
+    bgMusic.setVolume(0.2);
     bgMusic.loop();
     initGame(); // Initialize game variables
     // Initialize snowflakes
@@ -118,11 +118,11 @@ function draw() {
         }
         fill(255);
         stroke(155);
-        textSize(38);
+        textSize(35);
         textAlign(CENTER);
         text("Welcome to the Thunderstorm Asthma Prevention Game!\n🌩🌺⛈🌺⛈🌺🌩", width / 2, height / 2 - 160);
 
-        textSize(36);
+        textSize(33);
 
 
         text("Press 'G' on your keyboard to start the game.", width / 2, height / 2 - 30);
